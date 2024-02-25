@@ -1,0 +1,18 @@
+Doador
+    codigo              número
+    nome                texto
+    cpf                 texto
+    contato             texto
+    tipo_sanguineo      A, B, AB e O
+    rh text             positivo e negativo
+    tipo_e_rh_corretos  booleano
+    situacao            ativo, inativo
+
+Doacao
+    codigo              número
+    data                data
+    hora                hora
+    volume              número decimal
+    doador              Doador (orientado a objetos pelo amor de Deus)
+    situacao            ativo, inativo
+
